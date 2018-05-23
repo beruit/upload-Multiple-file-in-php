@@ -3,7 +3,7 @@
 //echo "<pre>",print_r($_FILES),"</pre>";
 if (!empty($_FILES['files']['name'][0])) {
     $files = $_FILES['files'];
-
+    
     $uploaded = array();
     $failed = array();
 
